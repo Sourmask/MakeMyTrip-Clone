@@ -1,0 +1,76 @@
+{
+    "flights": [
+        {
+            "name": "Air India",
+            "number": "AI101",
+            "dept_time": "08:00",
+            "arr_time": "10:30",
+            "fare": "15,000",
+            "dept_point": "Mumbai",
+            "destination": "Delhi"
+        },
+        {
+            "name": "IndiGo",
+            "number": "6E202",
+            "dept_time": "12:15",
+            "arr_time": "14:45",
+            "fare": "12,500",
+            "dept_point": "Delhi",
+            "destination": "Kolkata"
+        },
+        {
+            "name": "SpiceJet",
+            "number": "SG303",
+            "dept_time": "07:30",
+            "arr_time": "10:00",
+            "fare": "18,000",
+            "dept_point": "Kolkata",
+            "destination": "Mumbai"
+        },
+        {
+            "name": "Akasa Air",
+            "number": "QP404",
+            "dept_time": "18:45",
+            "arr_time": "21:00",
+            "fare": "16,750",
+            "dept_point": "Mumbai",
+            "destination": "Kolkata"
+        },
+        {
+            "name": "Air India",
+            "number": "AI505",
+            "dept_time": "05:00",
+            "arr_time": "07:30",
+            "fare": "14,000",
+            "dept_point": "Delhi",
+            "destination": "Mumbai"
+        },
+        {
+            "name": "IndiGo",
+            "number": "6E606",
+            "dept_time": "20:00",
+            "arr_time": "22:30",
+            "fare": "13,500",
+            "dept_point": "Kolkata",
+            "destination": "Delhi"
+        },
+        {
+            "name": "SpiceJet",
+            "number": "SG707",
+            "dept_time": "09:30",
+            "arr_time": "12:00",
+            "fare": "17,000",
+            "dept_point": "Delhi",
+            "destination": "Kolkata"
+        },
+        {
+            "name": "Akasa Air",
+            "number": "QP808",
+            "dept_time": "14:30",
+            "arr_time": "16:45",
+            "fare": "12,500",
+            "dept_point": "Kolkata",
+            "destination": "Mumbai"
+        }
+    ]
+}
