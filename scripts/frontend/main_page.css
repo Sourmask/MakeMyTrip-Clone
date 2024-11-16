@@ -1,0 +1,82 @@
+.firstContainer {
+    display: flex;
+}
+
+.titleBar {
+    cursor: pointer;
+    align-items: center;
+    display: flex;
+    background-color: transparent;
+    border: 0px;
+    font-weight: bolder;
+    color: aliceblue;
+    height:45px;
+    margin-top: 10px;
+    margin-inline: 5px;
+    border-radius: 5px;
+}
+
+.secondContainer {
+    
+    display: flex;
+    border: 0px;
+    justify-content: center;
+    margin-bottom: 0px;
+    height: 130px;
+}
+
+.main_icons {
+    cursor: pointer;
+    border: 0px;
+    background-color: white;
+}
+
+.icons {
+    cursor: pointer;
+    border: 0px;
+    background-color: white;
+    filter:grayscale(1);
+    width: 110px;
+}
+
+.thirdContainerbox {
+    background-color: whitesmoke;
+    margin-top: -55px;
+    padding-inline: 10px;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    margin-bottom: -20px;
+    margin-inline: 30px;
+    border-radius: 10px;
+}
+
+.thirdContainer1 {
+    display: flex;
+    background-color: whitesmoke;
+}
+
+.abutton{
+    cursor: pointer;
+}
+.thirdContainer2 {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.thirdContainer3 {
+    display: flex;
+    margin-top: 10px;
+}
+
+.searchButton {
+    cursor: pointer;
+    justify-content: start;
+    background-color: rgb(73, 73, 237);
+    color: white;
+    border-radius: 70px;
+    font-size: large;
+    padding: 10px;
+    margin-left: 500px;
+    font-weight: bolder;
+    width: 150px;
+}
