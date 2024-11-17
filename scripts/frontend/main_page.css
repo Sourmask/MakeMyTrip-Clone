@@ -60,20 +60,31 @@
     margin-bottom: 40px;
 }
 
+/* .firstclass{
+
+} */
+
+.firstclass:hover{
+    background-color: blue;
+    color: blue;
+}
+
 .thirdContainer3 {
     display: flex;
     margin-top: 10px;
 }
 
 .searchButton {
+    display: block;
+    margin: auto;
     cursor: pointer;
-    justify-content: start;
+    align-items: start;
     background-color: rgb(73, 73, 237);
     color: white;
     border-radius: 70px;
     font-size: large;
     padding: 10px;
-    margin-left: 500px;
+    /* margin-left: 500px; */
     font-weight: bolder;
     width: 150px;
 }
