@@ -22,7 +22,9 @@ function toggleDetails() {
   var details = document.getElementById("flight_details");
   if (details.classList.contains("hidden")) {
       showDiv();
-  } else {
+      document.getElementById("detail_button").innerText="Hide Flight Details"
+    } else {
       hideDiv();
+      document.getElementById("detail_button").innerText="Show Flight Details"
   }
 }
