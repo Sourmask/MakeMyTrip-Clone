@@ -15,8 +15,8 @@ function FilterData(data,option1,option2) {
     console.log('Filtered flights:', finalData);
 }
   
-const option2 = document.getElementById('option2');
 const option1 = document.getElementById('option1');
+const option2 = document.getElementById('option2');
 
 option1.addEventListener('change', async () => {
     const data = await fetchData();
