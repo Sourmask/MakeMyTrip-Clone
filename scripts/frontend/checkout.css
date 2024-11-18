@@ -1,0 +1,38 @@
+.secondContainer{
+    display: flex;
+    margin-inline: 30px;
+    /* background-color: whitesmoke; */
+    background-color: hsl(240, 62%, 16%);
+    padding: 0px 30px;
+    height: 200px;
+    border: 2px solid black;
+    margin-bottom: -200px;
+}
+.firstContainer{
+    
+}
+
+.icons
+
+.secondContainerElements{
+    margin-inline: 5px;
+    color: rgba(245, 245, 245, 0.292);
+
+    /* position: absolute; left: 50%; */
+}
+.thirdContainer{
+    display: flex;
+    margin: 100px;
+}
+
+.fourthContainer{
+    background-color: whitesmoke;
+    padding: 10px 30px ;
+    width: 800px;
+    margin-right: 40px;
+}
+.fifthContainer{
+    background-color: whitesmoke;
+    width: 250px;
+    padding: 10px 30px;
+}
