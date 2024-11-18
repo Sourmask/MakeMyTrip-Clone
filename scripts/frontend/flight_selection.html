@@ -15,7 +15,7 @@
     <div id="card_1" style="background-color: whitesmoke; margin-bottom: 20px;">
         <div style="display: flex;">
             <div style="margin-right: 100px;height: 120px;">
-                <img src="\resources\Individual images\Air india.GIF" alt="Air India">               
+                <img id="logo_1" src="" alt="IMG NOT LOADED">               
                 <p id="flightName_1">Air India</p>
                 <p id="flightCode_1">AI 2983</p>
             </div>
@@ -47,7 +47,7 @@
     <div id="card_2" style="background-color: whitesmoke; margin-bottom: 20px;">
         <div style="display: flex;">
             <div style="margin-right: 100px;">
-                <img src="\resources\Individual images\Aeroplane.GIF" alt="IndiGo"> 
+                <img id="logo_2" src="" alt="IMG NOT LOADED"> 
                 <p id="flightName_2">IndiGo</p>
                 <p id="flightCode_2">6E 6051</p>
             </div>
@@ -79,7 +79,7 @@
     <div id="card_3" style="background-color: whitesmoke; margin-bottom: 20px;">
         <div style="display: flex;">
             <div style="margin-right: 100px;">
-                <img src="\resources\Individual images\spicejet.GIF" alt="spicejet">
+                <img id="logo_3" src="" alt="IMG NOT LOADED">
                 <p id="flightName_3">SpiceJet</p>
                 <p id="flightCode_3">SG 8169</p>
             </div>
@@ -130,6 +130,7 @@
             document.getElementById(`arrivingTime_${i + 1}`).innerText = flight.arr_time;
             document.getElementById(`arrivingTo_${i + 1}`).innerText = flight.arr_point;
             document.getElementById(`flightPrice_${i + 1}`).innerText = `RS ${flight.fare}`;
+            document.getElementById(`logo_${i + 1}`).src = flight.logo;
         }
     </script>
     <script src="../backend/tools.js"></script>
