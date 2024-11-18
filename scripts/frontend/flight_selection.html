@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,11 +12,13 @@
     </style>
     <link rel="stylesheet" href="flight_selection.css">
 </head>
+
 <body>
+
     <div id="card_1" style="background-color: whitesmoke; margin-bottom: 20px;">
         <div style="display: flex;">
             <div style="margin-right: 100px;height: 120px;">
-                <img src="\resources\Individual images\Air india.GIF" alt="Air India">               
+                <img src="\resources\Individual images\Air india.GIF" alt="Air India">
                 <p id="flightName_1">Air India</p>
                 <p id="flightCode_1">AI 2983</p>
             </div>
@@ -40,20 +43,74 @@
                 VIEW PRICES
             </button>
         </div>
-        <button id="button1" type="button" onclick="toggleDetails(1)" class="detail_button" style="align-self: center;">Show Flight Details</button>
-        <p id="flight_details1" class="hidden">HELLO1</p>
+        <button id="button1" type="button" onclick="toggleDetails(1)" class="detail_button"
+            style="align-self: center;">Show Flight Details</button>
+            <div id="flight_details1" class="hidden" style="border: 1px solid black; margin: 10px; padding: 20px;">
+
+                <div style="margin-right: 100px; display: flex;">
+                    <table>
+                        <td >
+                            <img src="..\..\resources\Individual images\Aeroplane.GIF" alt="IndiGo">
+                        </td>
+                        <td>
+                            <b id="flightName_1">IndiGo</b>
+                        </td>
+                        <td>
+                            <p id="flightCode_1">6E 6051</p>
+                        </td>
+                    </table>
+                </div>
+                <div style="display: flex;">
+                    <div style="margin-right: 70px;width: 80px;">
+                        <h4 id="departureTime_1" style="margin-bottom: 0px;" >13:00</h4>
+                        <b id="departureOn_1">*day date*</b>
+                        <div style="border: 0.5px solid gray;">
+                            <p style="width: 80px; margin: 2px;">Terminal T6</p>
+                            <p style="width: 80px; margin: 2px;" class="departureFrom_1">a</p>
+                            <p style="width: 80px; margin: 2px;" >,India</p>
+                        </div>
+                    </div>
+                    <div style="margin-right: 70px;">
+                        <p id="timeDuration_2">02 h 20m</p>
+                        <img src="../../resources/Individual images/underline.png" alt="dividing line">
+                    </div>
+                    <div style="margin-right: 100px;">
+                        <h4 id="arrivingTime_1" style="margin-bottom: 0px;" >15:20</h4>
+                        <b id="arrivingOn_1" >*day date*</b>
+                        <div style="border: 0.5px solid gray;">
+                            <p style="width: 80px; margin: 2px;" >Terminal T1</p>
+                            <p style="width: 80px; margin: 2px;" class="arrivingTo_1">a</p>
+                            <p style="width: 80px; margin: 2px;" >,India</p>
+                        </div>
+                    </div>
+                    <div style="margin-right: 100px;"> 
+                        <h4>BAGGAGE</h4>
+                        <p> Adult</p>
+                    </div>
+                    <div style="margin-right: 100px;"> 
+                        <h4>CHECK IN</h4>
+                        <p> 15 Kgs</p>
+                    </div>
+                    <div style="margin-right: 100px;"> 
+                        <h4>CABIN</h4>
+                        <p> 7 Kgs(1 piece only)</p>
+                    </div>
+    
+                </div>
+            </div>
     </div>
 
     <div id="card_2" style="background-color: whitesmoke; margin-bottom: 20px;">
+
         <div style="display: flex;">
             <div style="margin-right: 100px;">
-                <img src="\resources\Individual images\Aeroplane.GIF" alt="IndiGo"> 
+                <img src="\resources\Individual images\Aeroplane.GIF" alt="IndiGo">
                 <p id="flightName_2">IndiGo</p>
                 <p id="flightCode_2">6E 6051</p>
             </div>
             <div style="margin-right: 100px;">
                 <p id="departureTime_2">13:00</p>
-                <p id="departureFrom_2">New Delhi</p>
+                <p class="departureFrom_2">New Delhi</p>
             </div>
             <div style="margin-right: 100px;">
                 <p id="timeDuration_2">02 h 20m</p>
@@ -72,11 +129,64 @@
                 VIEW PRICES
             </button>
         </div>
-        <button id="button2" type="button" onclick="toggleDetails(2)" class="detail_button" style="align-self: center;">Show Flight Details</button>
-        <p id="flight_details2" class="hidden">HELLO2</p>
+        <button id="button2" type="button" onclick="toggleDetails(2)" class="detail_button"
+            style="align-self: center;">Show Flight Details</button>
+        <div id="flight_details2" class="hidden" style="border: 1px solid black; margin: 10px; padding: 20px;">
+
+            <div style="margin-right: 100px; display: flex;">
+                <table>
+                    <td >
+                        <img src="..\..\resources\Individual images\Aeroplane.GIF" alt="IndiGo">
+                    </td>
+                    <td>
+                        <b id="flightName_2">IndiGo</b>
+                    </td>
+                    <td>
+                        <p id="flightCode_2">6E 6051</p>
+                    </td>
+                </table>
+            </div>
+            <div style="display: flex;">
+                <div style="margin-right: 70px;width: 80px;">
+                    <h4 id="departureTime_2" style="margin-bottom: 0px;" >13:00</h4>
+                    <b id="departureOn_2">*day date*</b>
+                    <div style="border: 0.5px solid gray;">
+                        <p style="width: 80px; margin: 2px;">Terminal T3</p>
+                        <p style="width: 80px; margin: 2px;" class="departureFrom_2">a</p>
+                        <p style="width: 80px; margin: 2px;" >,India</p>
+                    </div>
+                </div>
+                <div style="margin-right: 70px;">
+                    <p id="timeDuration_2">02 h 20m</p>
+                    <img src="../../resources/Individual images/underline.png" alt="dividing line">
+                </div>
+                <div style="margin-right: 100px;">
+                    <h4 id="arrivingTime_2" style="margin-bottom: 0px;" >15:20</h4>
+                    <b id="arrivingOn_2" >*day date*</b>
+                    <div style="border: 0.5px solid gray;">
+                        <p style="width: 80px; margin: 2px;" >Terminal T2</p>
+                        <p style="width: 80px; margin: 2px;" class="arrivingTo_2">a</p>
+                        <p style="width: 80px; margin: 2px;" >,India</p>
+                    </div>
+                </div>
+                <div style="margin-right: 100px;"> 
+                    <h4>BAGGAGE</h4>
+                    <p> Adult</p>
+                </div>
+                <div style="margin-right: 100px;"> 
+                    <h4>CHECK IN</h4>
+                    <p> 15 Kgs</p>
+                </div>
+                <div style="margin-right: 100px;"> 
+                    <h4>CABIN</h4>
+                    <p> 7 Kgs(1 piece only)</p>
+                </div>
+
+            </div>
+        </div>
     </div>
 
-    <div id="card_3" style="background-color: whitesmoke; margin-bottom: 20px;">
+    <div id="card_3" style="background-color: whitesmoke; margin-top: 20px;">
         <div style="display: flex;">
             <div style="margin-right: 100px;">
                 <img src="\resources\Individual images\spicejet.GIF" alt="spicejet">
@@ -104,8 +214,61 @@
                 VIEW PRICES
             </button>
         </div>
-        <button id="button3" type="button" onclick="toggleDetails(3)" class="detail_button" style="align-self: center;">Show Flight Details</button>
-        <p id="flight_details3" class="hidden">HELLO3</p>
+        <button id="button3" type="button" onclick="toggleDetails(3)" class="detail_button"
+            style="align-self: center;">Show Flight Details</button>
+            <div id="flight_details3" class="hidden" style="border: 1px solid black; margin: 10px; padding: 20px;">
+
+                <div style="margin-right: 100px; display: flex;">
+                    <table>
+                        <td >
+                            <img src="..\..\resources\Individual images\Aeroplane.GIF" alt="IndiGo">
+                        </td>
+                        <td>
+                            <b id="flightName_3">IndiGo</b>
+                        </td>
+                        <td>
+                            <p id="flightCode_3">6E 6051</p>
+                        </td>
+                    </table>
+                </div>
+                <div style="display: flex;">
+                    <div style="margin-right: 70px;width: 80px;">
+                        <h4 id="departureTime_3" style="margin-bottom: 0px;" >13:00</h4>
+                        <b id="departureOn_3">*day date*</b>
+                        <div style="border: 0.5px solid gray;">
+                            <p style="width: 80px; margin: 2px;">Terminal T3</p>
+                            <p style="width: 80px; margin: 2px;" class="departureFrom_3">a</p>
+                            <p style="width: 80px; margin: 2px;" >,India</p>
+                        </div>
+                    </div>
+                    <div style="margin-right: 70px;">
+                        <p id="timeDuration_2">02 h 20m</p>
+                        <img src="../../resources/Individual images/underline.png" alt="dividing line">
+                    </div>
+                    <div style="margin-right: 100px;">
+                        <h4 id="arrivingTime_3" style="margin-bottom: 0px;" >15:20</h4>
+                        <b id="arrivingOn_3" >*day date*</b>
+                        <div style="border: 0.5px solid gray;">
+                            <p style="width: 80px; margin: 2px;" >Terminal T2</p>
+                            <p style="width: 80px; margin: 2px;" class="arrivingTo_3">a</p>
+                            <p style="width: 80px; margin: 2px;" >,India</p>
+                        </div>
+                    </div>
+                    <div style="margin-right: 100px;"> 
+                        <h4>BAGGAGE</h4>
+                        <p> Adult</p>
+                    </div>
+                    <div style="margin-right: 100px;"> 
+                        <h4>CHECK IN</h4>
+                        <p> 15 Kgs</p>
+                    </div>
+                    <div style="margin-right: 100px;"> 
+                        <h4>CABIN</h4>
+                        <p> 7 Kgs(1 piece only)</p>
+                    </div>
+    
+                </div>
+            </div>
     </div>
 
     <script type="module">
@@ -119,7 +282,7 @@
             document.getElementById(`arrivingTo_${i + 1}`).innerText = '';
             document.getElementById(`flightPrice_${i + 1}`).innerText = '';
         }
-    
+
         for (let i = 0; i < finalData.length && i < 3; i++) {
             const flight = finalData[i];
             document.getElementById(`flightName_${i + 1}`).innerText = flight.name;
@@ -131,7 +294,10 @@
             document.getElementById(`arrivingTo_${i + 1}`).innerText = flight.arr_point;
             document.getElementById(`flightPrice_${i + 1}`).innerText = `RS ${flight.fare}`;
         }
+
+
     </script>
     <script src="../backend/tools.js"></script>
 </body>
+
 </html>
