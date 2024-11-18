@@ -8,7 +8,7 @@
             "flight_time": "02h 30m",
             "fare": "15,000",
             "dept_point": "Mumbai",
-            "arr_point": "Delhi",
+            "arr_point": "New Delhi",
             "token": "AIR"
         },
         {
@@ -30,7 +30,7 @@
             "flight_time": "02h 30m",
             "fare": "19,000",
             "dept_point": "Mumbai",
-            "arr_point": "Delhi",
+            "arr_point": "New Delhi",
             "token": "VIS"
         },
         {
@@ -63,7 +63,7 @@
             "flight_time": "02h 30m",
             "fare": "19,000",
             "dept_point": "Mumbai",
-            "arr_point": "Delhi",
+            "arr_point": "New Delhi",
             "token": "SPI"
         },
         {
@@ -73,7 +73,7 @@
             "arr_time": "07:30",
             "flight_time": "02h 30m",
             "fare": "14,000",
-            "dept_point": "Delhi",
+            "dept_point": "New Delhi",
             "arr_point": "Mumbai",
             "token": "AIR"
         },
@@ -84,7 +84,7 @@
             "arr_time": "14:45",
             "flight_time": "02h 30m",
             "fare": "12,500",
-            "dept_point": "Delhi",
+            "dept_point": "New Delhi",
             "arr_point": "Kolkata",
             "token": "IND"
         },
@@ -95,7 +95,7 @@
             "arr_time": "12:00",
             "flight_time": "02h 30m",
             "fare": "17,000",
-            "dept_point": "Delhi",
+            "dept_point": "New Delhi",
             "arr_point": "Kolkata",
             "token": "SPI"
         },
@@ -106,20 +106,9 @@
             "arr_time": "11:30",
             "flight_time": "02h 30m",
             "fare": "15,500",
-            "dept_point": "Delhi",
+            "dept_point": "New Delhi",
             "arr_point": "Mumbai",
             "token": "AIR"
-        },
-        {
-            "name": "SpiceJet",
-            "number": "SG304",
-            "dept_time": "08:30",
-            "arr_time": "11:00",
-            "flight_time": "02h 30m",
-            "fare": "18,500",
-            "dept_point": "Delhi",
-            "arr_point": "Mumbai",
-            "token": "SPI"
         },
         {
             "name": "IndiGo",
@@ -128,7 +117,7 @@
             "arr_time": "16:45",
             "flight_time": "02h 30m",
             "fare": "14,000",
-            "dept_point": "Delhi",
+            "dept_point": "New Delhi",
             "arr_point": "Mumbai",
             "token": "IND"
         },
@@ -151,7 +140,7 @@
             "flight_time": "02h 30m",
             "fare": "13,500",
             "dept_point": "Kolkata",
-            "arr_point": "Delhi",
+            "arr_point": "New Delhi",
             "token": "IND"
         },
         {
@@ -173,7 +162,7 @@
             "flight_time": "02h 30m",
             "fare": "16,000",
             "dept_point": "Kolkata",
-            "arr_point": "Delhi",
+            "arr_point": "New Delhi",
             "token": "AIR"
         },
         {
@@ -184,8 +173,30 @@
             "flight_time": "02h 15m",
             "fare": "17,750",
             "dept_point": "Kolkata",
-            "arr_point": "Delhi",
+            "arr_point": "New Delhi",
             "token": "AKA"
+        },
+        {
+            "name": "GoAir",
+            "number": "G8406",
+            "dept_time": "11:30",
+            "arr_time": "14:00",
+            "flight_time": "02h 30m",
+            "fare": "11,000",
+            "dept_point": "Kolkata",
+            "arr_point": "Mumbai",
+            "token": "GOA"
+        },
+        {
+            "name": "AirAsia",
+            "number": "I5555",
+            "dept_time": "08:45",
+            "arr_time": "11:30",
+            "flight_time": "02h 45m",
+            "fare": "14,000",
+            "dept_point": "New Delhi",
+            "arr_point": "Kolkata",
+            "token": "AIR"
         }
     ]
 }

@@ -108,7 +108,30 @@
         <p id="flight_details3" class="hidden">HELLO3</p>
     </div>
 
-    <script type="module" src="../backend/main.js"></script>
+    <script type="module">
+        for (let i = 0; i < 3; i++) {
+            document.getElementById(`flightName_${i + 1}`).innerText = '';
+            document.getElementById(`flightCode_${i + 1}`).innerText = '';
+            document.getElementById(`departureTime_${i + 1}`).innerText = '';
+            document.getElementById(`departureFrom_${i + 1}`).innerText = '';
+            document.getElementById(`timeDuration_${i + 1}`).innerText = '';
+            document.getElementById(`arrivingTime_${i + 1}`).innerText = '';
+            document.getElementById(`arrivingTo_${i + 1}`).innerText = '';
+            document.getElementById(`flightPrice_${i + 1}`).innerText = '';
+        }
+    
+        for (let i = 0; i < finalData.length && i < 3; i++) {
+            const flight = finalData[i];
+            document.getElementById(`flightName_${i + 1}`).innerText = flight.name;
+            document.getElementById(`flightCode_${i + 1}`).innerText = flight.number;
+            document.getElementById(`departureTime_${i + 1}`).innerText = flight.dept_time;
+            document.getElementById(`departureFrom_${i + 1}`).innerText = flight.dept_point;
+            document.getElementById(`timeDuration_${i + 1}`).innerText = flight.flight_time;
+            document.getElementById(`arrivingTime_${i + 1}`).innerText = flight.arr_time;
+            document.getElementById(`arrivingTo_${i + 1}`).innerText = flight.arr_point;
+            document.getElementById(`flightPrice_${i + 1}`).innerText = `RS ${flight.fare}`;
+        }
+    </script>
     <script src="../backend/tools.js"></script>
 </body>
 </html>
