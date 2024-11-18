@@ -281,8 +281,8 @@
         const data = await fetchData();
 
         function FilterData(data) {
-            const option1 = "";
-            const option2 = "";
+            const option1 = "New Delhi";
+            const option2 = "Kolkata";
             console.log("dept_point: ", option1)
             console.log("arr_point:", option2)
 
@@ -296,7 +296,7 @@
                 document.getElementById(`flightName_${i + 1}`).innerText = '';
                 document.getElementById(`flightCode_${i + 1}`).innerText = '';
                 document.getElementById(`departureTime_${i + 1}`).innerText = '';
-                document.getElementById(`departureFrom_${i + 1}`).innerText = '';
+                // document.getElementById(`departureFrom_${i + 1}`).innerText = '';
                 document.getElementById(`timeDuration_${i + 1}`).innerText = '';
                 document.getElementById(`arrivingTime_${i + 1}`).innerText = '';
                 document.getElementById(`arrivingTo_${i + 1}`).innerText = '';
@@ -308,6 +308,7 @@
                 document.getElementById(`flightName_${i + 1}`).innerText = flight.name;
                 document.getElementById(`flightCode_${i + 1}`).innerText = flight.number;
                 document.getElementById(`departureTime_${i + 1}`).innerText = flight.dept_time;
+                document.getElementsByClassName(`departureFrom_${i + 1}`).innerText = flight.dept_point;
                 document.getElementById(`departureFrom_${i + 1}`).innerText = flight.dept_point;
                 document.getElementById(`timeDuration_${i + 1}`).innerText = flight.flight_time;
                 document.getElementById(`arrivingTime_${i + 1}`).innerText = flight.arr_time;
