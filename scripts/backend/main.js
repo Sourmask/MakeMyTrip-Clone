@@ -9,7 +9,7 @@ function FilterData(data,option1,option2) {
     console.log("arr_point:",option2)
 
     const finalData = data.flights.filter(obj => 
-        obj.dept_point === option1 && obj.destination === option2
+        obj.dept_point === option1 && obj.arr_point === option2
     );
       
     console.log('Filtered flights:', finalData);

@@ -1,3 +1,7 @@
+.body{
+
+}
+
 .firstContainer {
     display: flex;
 }
@@ -60,14 +64,21 @@
     margin-bottom: 40px;
 }
 
-/* .firstclass{
-
-} */
-
-.firstclass:hover{
-    background-color: blue;
-    color: blue;
+.firstclass {
+    cursor: pointer;
+    background-color: initial;
+    color: initial;
+    text-align: left;
+    width: 300px;
+    height: 115px;
+    border: 1px solid rgb(78, 73, 73);
+    transition: background-color 0.5s ease;
 }
+
+.firstclass:hover {
+    background-color: rgb(234, 245, 255);
+}
+
 
 .thirdContainer3 {
     display: flex;

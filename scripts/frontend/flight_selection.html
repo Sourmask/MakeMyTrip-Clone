@@ -1,176 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flight Selection</title>
     <style>
-        body{
+        body {
             background-color: rgb(194, 226, 226);
         }
     </style>
     <link rel="stylesheet" href="flight_selection.css">
 </head>
-
 <body>
-    <div id="card_1" style="background-color: whitesmoke; margin-bottom: 20px;" >
+    <div id="card_1" style="background-color: whitesmoke; margin-bottom: 20px;">
         <div style="display: flex;">
             <div style="margin-right: 100px;height: 120px;">
-                <p id="flightName">a</p>
-                <p id="flightCode">b</p>
+                <p id="flightName_1">a</p>
+                <p id="flightCode_1">b</p>
             </div>
             <div style="margin-right: 100px;height: 120px;">
-                <p id="departureTime">c</p>
-                <p id="departureFrom">d</p>
+                <p id="departureTime_1">c</p>
+                <p id="departureFrom_1">d</p>
             </div>
             <div style="margin-right: 100px;height: 120px;">
-
-                <p id="timeDuration">e</p>
-                <img src="resources\Individual images\underline.png" alt="dividing line">
-                <p id="flightType">f</p>
+                <p id="timeDuration_1">e</p>
+                <img src="../../resources/Individual images/underline.png" alt="dividing line">
+                <p id="flightType_1">f</p>
             </div>
             <div style="margin-right: 100px;height: 120px;">
-                <p id="arrivingTime">g</p>
-                <p id="arrivingTo">h</p>
+                <p id="arrivingTime_1">g</p>
+                <p id="arrivingTo_1">h</p>
             </div>
             <div>
-                <p id="flightPrice">i</p>
+                <p id="flightPrice_1">i</p>
                 <p>per adult</p>
             </div>
-            <button id="viewPrices" style="border-radius: 20px;height: fit-content;align-self: center; ">
+            <button id="viewPrices_1" style="border-radius: 20px;height: fit-content;align-self: center;">
                 VIEW PRICES
             </button>
         </div>
-        <button onclick=toggleDetails() class="detail_button" style="align-self: center;">Show Flight Details</button>
-        <p id="flight_details" class="hidden">HELLO</p>
+        <button id="button1" type="button" onclick="toggleDetails(1)" class="detail_button" style="align-self: center;">Show Flight Details</button>
+        <p id="flight_details1" class="hidden">HELLO1</p>
     </div>
-    <div id="card_1" style="background-color: whitesmoke; margin-bottom: 20px;" >
+
+    <div id="card_2" style="background-color: whitesmoke; margin-bottom: 20px;">
         <div style="display: flex;">
             <div style="margin-right: 100px;">
-                <p id="flightName">a</p>
-                <p id="flightCode">b</p>
+                <p id="flightName_2">a</p>
+                <p id="flightCode_2">b</p>
             </div>
             <div style="margin-right: 100px;">
-                <p id="departureTime">c</p>
-                <p id="departureFrom">d</p>
+                <p id="departureTime_2">c</p>
+                <p id="departureFrom_2">d</p>
             </div>
             <div style="margin-right: 100px;">
-
-                <p id="timeDuration">e</p>
-                <img src="resources\Individual images\underline.png" alt="dividing line">
-                <p id="flightType">f</p>
+                <p id="timeDuration_2">e</p>
+                <img src="../../resources/Individual images/underline.png" alt="dividing line">
+                <p id="flightType_2">f</p>
             </div>
             <div style="margin-right: 100px;">
-                <p id="arrivingTime">g</p>
-                <p id="arrivingTo">h</p>
+                <p id="arrivingTime_2">g</p>
+                <p id="arrivingTo_2">h</p>
             </div>
             <div>
-                <p id="flightPrice">i</p>
+                <p id="flightPrice_2">i</p>
                 <p>per adult</p>
             </div>
-            <button id="viewPrices" style="border-radius: 20px;height: fit-content;align-self: center; ">
+            <button id="viewPrices_2" style="border-radius: 20px;height: fit-content;align-self: center;">
                 VIEW PRICES
             </button>
         </div>
-        <button onclick=toggleDetails() class="detail_button" style="align-self: center;">Show Flight Details</button>
-        <p id="flight_details" class="hidden">HELLO</p>
+        <button id="button2" type="button" onclick="toggleDetails(2)" class="detail_button" style="align-self: center;">Show Flight Details</button>
+        <p id="flight_details2" class="hidden">HELLO2</p>
     </div>
-    <div id="card_1" style="background-color: whitesmoke; margin-bottom: 20px;" >
+
+    <div id="card_3" style="background-color: whitesmoke; margin-bottom: 20px;">
         <div style="display: flex;">
             <div style="margin-right: 100px;">
-                <p id="flightName">a</p>
-                <p id="flightCode">b</p>
+                <p id="flightName_3">a</p>
+                <p id="flightCode_3">b</p>
             </div>
             <div style="margin-right: 100px;">
-                <p id="departureTime">c</p>
-                <p id="departureFrom">d</p>
+                <p id="departureTime_3">c</p>
+                <p id="departureFrom_3">d</p>
             </div>
             <div style="margin-right: 100px;">
-
-                <p id="timeDuration">e</p>
-                <img src="resources\Individual images\underline.png" alt="dividing line">
-                <p id="flightType">f</p>
+                <p id="timeDuration_3">e</p>
+                <img src="../../resources/Individual images/underline.png" alt="dividing line">
+                <p id="flightType_3">f</p>
             </div>
             <div style="margin-right: 100px;">
-                <p id="arrivingTime">g</p>
-                <p id="arrivingTo">h</p>
+                <p id="arrivingTime_3">g</p>
+                <p id="arrivingTo_3">h</p>
             </div>
             <div>
-                <p id="flightPrice">i</p>
+                <p id="flightPrice_3">i</p>
                 <p>per adult</p>
             </div>
-            <button id="viewPrices" style="border-radius: 20px;height: fit-content;align-self: center; ">
+            <button id="viewPrices_3" style="border-radius: 20px;height: fit-content;align-self: center;">
                 VIEW PRICES
             </button>
         </div>
-        <button onclick=toggleDetails() class="detail_button" style="align-self: center;">Show Flight Details</button>
-        <p id="flight_details" class="hidden">HELLO</p>
+        <button id="button3" type="button" onclick="toggleDetails(3)" class="detail_button" style="align-self: center;">Show Flight Details</button>
+        <p id="flight_details3" class="hidden">HELLO3</p>
     </div>
-    <div id="card_1" style="background-color: whitesmoke; margin-bottom: 20px;" >
-        <div style="display: flex;">
-            <div style="margin-right: 100px;">
-                <p id="flightName">a</p>
-                <p id="flightCode">b</p>
-            </div>
-            <div style="margin-right: 100px;">
-                <p id="departureTime">c</p>
-                <p id="departureFrom">d</p>
-            </div>
-            <div style="margin-right: 100px;">
 
-                <p id="timeDuration">e</p>
-                <img src="resources\Individual images\underline.png" alt="dividing line">
-                <p id="flightType">f</p>
-            </div>
-            <div style="margin-right: 100px;">
-                <p id="arrivingTime">g</p>
-                <p id="arrivingTo">h</p>
-            </div>
-            <div>
-                <p id="flightPrice">i</p>
-                <p>per adult</p>
-            </div>
-            <button id="viewPrices" style="border-radius: 20px;height: fit-content;align-self: center; ">
-                VIEW PRICES
-            </button>
-        </div>
-        <button onclick=toggleDetails() class="detail_button" style="align-self: center;">Show Flight Details</button>
-        <p id="flight_details" class="hidden">HELLO</p>
-    </div>
-    <div id="card_1" style="background-color: whitesmoke; margin-bottom: 20px;" >
-        <div style="display: flex;">
-            <div style="margin-right: 100px;">
-                <p id="flightName">a</p>
-                <p id="flightCode">b</p>
-            </div>
-            <div style="margin-right: 100px;">
-                <p id="departureTime">c</p>
-                <p id="departureFrom">d</p>
-            </div>
-            <div style="margin-right: 100px;">
-
-                <p id="timeDuration">e</p>
-                <img src="resources\Individual images\underline.png" alt="dividing line">
-                <p id="flightType">f</p>
-            </div>
-            <div style="margin-right: 100px;">
-                <p id="arrivingTime">g</p>
-                <p id="arrivingTo">h</p>
-            </div>
-            <div>
-                <p id="flightPrice">i</p>
-                <p>per adult</p>
-            </div>
-            <button id="viewPrices" style="border-radius: 20px;height: fit-content;align-self: center; ">
-                VIEW PRICES
-            </button>
-        </div>
-        <button onclick=toggleDetails() class="detail_button" style="position: absolute; left: 80%; width: 160px;">Show Flight Details</button>
-        <p id="flight_details" class="hidden">HELLO</p>
-    </div>
+    <script type="module" src="../backend/main.js"></script>
+    <script src="../backend/tools.js"></script>
 </body>
-<script type="module" src="../backend/main.js"></script>
-<script src="../backend/tools.js"></script>
-
 </html>

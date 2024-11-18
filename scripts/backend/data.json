@@ -5,72 +5,187 @@
             "number": "AI101",
             "dept_time": "08:00",
             "arr_time": "10:30",
+            "flight_time": "02h 30m",
             "fare": "15,000",
             "dept_point": "Mumbai",
-            "destination": "Delhi"
-        },
-        {
-            "name": "IndiGo",
-            "number": "6E202",
-            "dept_time": "12:15",
-            "arr_time": "14:45",
-            "fare": "12,500",
-            "dept_point": "Delhi",
-            "destination": "Kolkata"
-        },
-        {
-            "name": "SpiceJet",
-            "number": "SG303",
-            "dept_time": "07:30",
-            "arr_time": "10:00",
-            "fare": "18,000",
-            "dept_point": "Kolkata",
-            "destination": "Mumbai"
+            "arr_point": "Delhi",
+            "token": "AIR"
         },
         {
             "name": "Akasa Air",
             "number": "QP404",
             "dept_time": "18:45",
             "arr_time": "21:00",
+            "flight_time": "02h 15m",
             "fare": "16,750",
             "dept_point": "Mumbai",
-            "destination": "Kolkata"
+            "arr_point": "Kolkata",
+            "token": "AKA"
+        },
+        {
+            "name": "Vistara",
+            "number": "UK909",
+            "dept_time": "06:00",
+            "arr_time": "08:30",
+            "flight_time": "02h 30m",
+            "fare": "19,000",
+            "dept_point": "Mumbai",
+            "arr_point": "Delhi",
+            "token": "VIS"
+        },
+        {
+            "name": "IndiGo",
+            "number": "6E203",
+            "dept_time": "13:15",
+            "arr_time": "15:45",
+            "flight_time": "02h 30m",
+            "fare": "13,000",
+            "dept_point": "Mumbai",
+            "arr_point": "Kolkata",
+            "token": "IND"
+        },
+        {
+            "name": "Vistara",
+            "number": "UK910",
+            "dept_time": "07:00",
+            "arr_time": "09:30",
+            "flight_time": "02h 30m",
+            "fare": "20,000",
+            "dept_point": "Mumbai",
+            "arr_point": "Kolkata",
+            "token": "VIS"
+        },
+        {
+            "name": "SpiceJet",
+            "number": "SG305",
+            "dept_time": "09:30",
+            "arr_time": "12:00",
+            "flight_time": "02h 30m",
+            "fare": "19,000",
+            "dept_point": "Mumbai",
+            "arr_point": "Delhi",
+            "token": "SPI"
         },
         {
             "name": "Air India",
             "number": "AI505",
             "dept_time": "05:00",
             "arr_time": "07:30",
+            "flight_time": "02h 30m",
             "fare": "14,000",
             "dept_point": "Delhi",
-            "destination": "Mumbai"
+            "arr_point": "Mumbai",
+            "token": "AIR"
         },
         {
             "name": "IndiGo",
-            "number": "6E606",
-            "dept_time": "20:00",
-            "arr_time": "22:30",
-            "fare": "13,500",
-            "dept_point": "Kolkata",
-            "destination": "Delhi"
+            "number": "6E202",
+            "dept_time": "12:15",
+            "arr_time": "14:45",
+            "flight_time": "02h 30m",
+            "fare": "12,500",
+            "dept_point": "Delhi",
+            "arr_point": "Kolkata",
+            "token": "IND"
         },
         {
             "name": "SpiceJet",
             "number": "SG707",
             "dept_time": "09:30",
             "arr_time": "12:00",
+            "flight_time": "02h 30m",
             "fare": "17,000",
             "dept_point": "Delhi",
-            "destination": "Kolkata"
+            "arr_point": "Kolkata",
+            "token": "SPI"
+        },
+        {
+            "name": "Air India",
+            "number": "AI102",
+            "dept_time": "09:00",
+            "arr_time": "11:30",
+            "flight_time": "02h 30m",
+            "fare": "15,500",
+            "dept_point": "Delhi",
+            "arr_point": "Mumbai",
+            "token": "AIR"
+        },
+        {
+            "name": "SpiceJet",
+            "number": "SG304",
+            "dept_time": "08:30",
+            "arr_time": "11:00",
+            "flight_time": "02h 30m",
+            "fare": "18,500",
+            "dept_point": "Delhi",
+            "arr_point": "Mumbai",
+            "token": "SPI"
+        },
+        {
+            "name": "IndiGo",
+            "number": "6E204",
+            "dept_time": "14:15",
+            "arr_time": "16:45",
+            "flight_time": "02h 30m",
+            "fare": "14,000",
+            "dept_point": "Delhi",
+            "arr_point": "Mumbai",
+            "token": "IND"
+        },
+        {
+            "name": "SpiceJet",
+            "number": "SG303",
+            "dept_time": "07:30",
+            "arr_time": "10:00",
+            "flight_time": "02h 30m",
+            "fare": "18,000",
+            "dept_point": "Kolkata",
+            "arr_point": "Mumbai",
+            "token": "SPI"
+        },
+        {
+            "name": "IndiGo",
+            "number": "6E606",
+            "dept_time": "20:00",
+            "arr_time": "22:30",
+            "flight_time": "02h 30m",
+            "fare": "13,500",
+            "dept_point": "Kolkata",
+            "arr_point": "Delhi",
+            "token": "IND"
         },
         {
             "name": "Akasa Air",
             "number": "QP808",
             "dept_time": "14:30",
             "arr_time": "16:45",
+            "flight_time": "02h 15m",
             "fare": "12,500",
             "dept_point": "Kolkata",
-            "destination": "Mumbai"
+            "arr_point": "Mumbai",
+            "token": "AKA"
+        },
+        {
+            "name": "Air India",
+            "number": "AI103",
+            "dept_time": "10:00",
+            "arr_time": "12:30",
+            "flight_time": "02h 30m",
+            "fare": "16,000",
+            "dept_point": "Kolkata",
+            "arr_point": "Delhi",
+            "token": "AIR"
+        },
+        {
+            "name": "Akasa Air",
+            "number": "QP405",
+            "dept_time": "19:45",
+            "arr_time": "22:00",
+            "flight_time": "02h 15m",
+            "fare": "17,750",
+            "dept_point": "Kolkata",
+            "arr_point": "Delhi",
+            "token": "AKA"
         }
     ]
 }
