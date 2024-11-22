@@ -1,50 +1,58 @@
-.secondContainer{
+.secondContainer {
     display: flex;
     margin: 0px -10px;
     /* background-color: whitesmoke; */
-    background-color: hsl(240, 62%, 16%);
+    background-image: var(--color-btn-primary-bg, linear-gradient(180deg, #080f15, #08255a));
     padding: 0px 30px;
     height: 200px;
     border: 2px solid black;
-    margin-bottom: -250px;
+    margin-bottom: -200px;
 }
-.firstContainer{
-    background-color: whitesmoke;
+
+.firstContainer {
+    background-color: white;
     padding-top: -50px;
     margin: -10px;
-    height: 70px;
+    height: 120px;
     display: flex;
     /* margin-bottom: 20px;    */
 }
-.main_icons{
-    margin-right: -2px;
-    border: 0px ;
-}
-.icons{
+
+.main_icons {
+    background-color: transparent;
+    margin-right: 2px;
     border: 0px;
-    margin-inline: -2px;
-
 }
 
-.secondContainerElements{
+.icons {
+    filter: grayscale(1);
+    background-color: transparent;
+    border: 0px;
+    margin-inline: 1px;
+}
+
+.secondContainerElements {
     margin-inline: 5px;
-    color: rgba(245, 245, 245, 0.292);
+    color: rgb(245, 245, 245, 0.292);
 
     /* position: absolute; left: 50%; */
 }
-.thirdContainer{
+
+.thirdContainer {
     display: flex;
     margin: 100px;
 }
 
-.fourthContainer{
+.fourthContainer {
     background-color: whitesmoke;
-    padding: 10px 30px ;
+    padding: 10px 30px;
     width: 800px;
     margin-right: 40px;
 }
-.fifthContainer{
+
+.fifthContainer {
     background-color: whitesmoke;
     width: 250px;
+    height: fit-content;
     padding: 10px 30px;
 }
