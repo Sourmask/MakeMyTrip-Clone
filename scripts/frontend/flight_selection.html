@@ -296,6 +296,7 @@
                 document.getElementById(`flightName_${i + 1}`).innerText = '';
                 document.getElementById(`flightCode_${i + 1}`).innerText = '';
                 document.getElementById(`departureTime_${i + 1}`).innerText = '';
+                document.getElementsByClassName(`departureFrom_${i + 1}`).innerText = "";
                 // document.getElementById(`departureFrom_${i + 1}`).innerText = '';
                 document.getElementById(`timeDuration_${i + 1}`).innerText = '';
                 document.getElementById(`arrivingTime_${i + 1}`).innerText = '';
@@ -309,7 +310,7 @@
                 document.getElementById(`flightCode_${i + 1}`).innerText = flight.number;
                 document.getElementById(`departureTime_${i + 1}`).innerText = flight.dept_time;
                 document.getElementsByClassName(`departureFrom_${i + 1}`).innerText = flight.dept_point;
-                document.getElementById(`departureFrom_${i + 1}`).innerText = flight.dept_point;
+                // document.getElementById(`departureFrom_${i + 1}`).innerText = flight.dept_point;
                 document.getElementById(`timeDuration_${i + 1}`).innerText = flight.flight_time;
                 document.getElementById(`arrivingTime_${i + 1}`).innerText = flight.arr_time;
                 document.getElementById(`arrivingTo_${i + 1}`).innerText = flight.arr_point;
