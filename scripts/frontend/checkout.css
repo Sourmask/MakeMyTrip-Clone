@@ -34,6 +34,7 @@
 .secondContainerElements {
     margin-inline: 5px;
     color: rgb(245, 245, 245, 0.292);
+    font-size: large;
 
     /* position: absolute; left: 50%; */
 }

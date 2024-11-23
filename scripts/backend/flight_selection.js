@@ -47,13 +47,13 @@ const obj2 = document.getElementById('viewPrices_2');
 const obj3 = document.getElementById('viewPrices_3');
 
 obj1.addEventListener('click', async () => {
-    localStorage.setItem("selectedKey","1");
+    localStorage.setItem("selectedKey",0);
 });
 
 obj2.addEventListener('click', async () => {
-    localStorage.setItem("selectedKey","2");
+    localStorage.setItem("selectedKey",1);
 });
 
 obj3.addEventListener('click', async () => {
-    localStorage.setItem("selectedKey","3");
+    localStorage.setItem("selectedKey",2);
 });

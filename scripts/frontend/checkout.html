@@ -8,6 +8,7 @@
     <style>
         body {
             background-color: rgb(194, 226, 226);
+            font-family: 'Lato', sans-serif;
         }
     </style>
     <link rel="stylesheet" href="checkout.css">
@@ -16,69 +17,72 @@
 <body>
     <div id="mainContaner">
 
-        <div class="firstContainer">
-            <button
+        <div id="firstContainer" class="firstContainer">
+            <!-- <button id="logoButton"
                 style="background-color: transparent;align-self: center;margin-inline: 50px; height: 60px; border: 0px;">
                 <img src="../../resources/Individual images/mmt2.png" width="100px" height="40px" alt="mmt">
-            </button>
+            </button> -->
+            <a href="main_page.html" style="background-color: transparent;align-self: center;margin-inline: 50px; height: 60px; border: 0px;">
+                <img src="../../resources/Individual images/mmt2.png" width="100px" height="40px" alt="mmt">
+            </a>
             <table>
                 <tr>
                     <td>
-                        <button class="main_icons">
+                        <button id="flightsButton" class="main_icons">
                             <img src="../../resources/Individual images/flight.png" alt="flight" width="70" height="50">
                             <p style="color:rgb(16, 98, 250); font-weight: bolder; margin-bottom: 3px;width: 70px;">
                                 Flights</p>
                         </button>
                     </td>
                     <td>
-                        <button class="icons">
+                        <button id="hotelsButton" class="icons">
                             <img src="../../resources/Individual images/hotel.png" alt="Hotel" width="60.8" height="50">
                             <p style="width: 60.8px;">Hotels</p>
                         </button>
                     </td>
                     <td>
-                        <button class="icons">
+                        <button id="homestayButton" class="icons">
                             <img src="../../resources/Individual images/homestay.png" alt="Home & Stayl" height="50px">
                             <p>Homestays & Villas</p>
                         </button>
                     </td>
                     <td>
-                        <button class="icons">
+                        <button id="holidayPackageButton" class="icons">
                             <img src="../../resources/Individual images/holiday.png" alt="Holiday package"
                                 width="66.2px" height="50px">
                             <p style="width: 66.2px;">Holiday Packages</p>
                         </button>
                     </td>
                     <td>
-                        <button class="icons">
+                        <button id="trainsButton" class="icons">
                             <img src="../../resources/Individual images/trains.png" alt="Train" width="75.7px"
                                 height="50px">
                             <p style="width: 75.7px;"> Trains</p>
                         </button>
                     </td>
                     <td>
-                        <button class="icons" style="padding-inline: 10px;">
+                        <button id="busesButton" class="icons" style="padding-inline: 10px;">
                             <img src="../../resources/Individual images/buses.png" alt="Buses" width="62.8px"
                                 height="50px">
                             <p style="width: 62.8px;">Buses</p>
                         </button>
                     </td>
                     <td>
-                        <button class="icons">
+                        <button id="cabsButton" class="icons">
                             <img src="../../resources/Individual images/cab.png" alt="Cabs" width="72.3px"
                                 height="50px">
                             <p style="width: 72.3px;">Cabs</p>
                         </button>
                     </td>
                     <td>
-                        <button class="icons">
+                        <button id="forexButton" class="icons">
                             <img src="../../resources/Individual images/forex.png" alt="Forex Card" width="67.8px"
                                 height="50px">
                             <p style="width: 67.8px;">Forex Card & Currency</p>
                         </button>
                     </td>
                     <td>
-                        <button class="icons">
+                        <button id="travelInsuranceButton" class="icons">
                             <img src="../../resources/Individual images/travel.png" alt="Travel" width="67.5px"
                                 height="50px">
                             <p style="width: 67.5px;">Travel Insurance</p>
@@ -86,35 +90,32 @@
                     </td>
                 </tr>
             </table>
-
-
-
         </div>
-        <div class="secondContainer">
+        <div id="secondContainer" class="secondContainer">
             <h1 style="margin-left: 10px; color: white;">Complete your booking</h1>
             <table>
                 <tbody style="position: absolute; left: 50%;">
                     <td>
-                        <p class="secondContainerElements">Flight Summary .</p>
+                        <p id="flightSummary" class="secondContainerElements">Flight Summary .</p>
                     </td>
                     <td>
-                        <p class="secondContainerElements">Travel insurance .</p>
+                        <p id="travelInsurance" class="secondContainerElements">Travel insurance .</p>
                     </td>
                     <td>
-                        <p class="secondContainerElements">Traveller Details .</p>
+                        <p id="travellerDetails" class="secondContainerElements">Traveller Details .</p>
                     </td>
                     <td>
-                        <p class="secondContainerElements">Seats & Meals .</p>
+                        <p id="seatsMeals" class="secondContainerElements">Seats & Meals .</p>
                     </td>
                     <td>
-                        <p class="secondContainerElements">Add-one</p>
+                        <p id="addOns" class="secondContainerElements">Add-one</p>
                     </td>
                 </tbody>
             </table>
         </div>
-        <div class="thirdContainer">
-            <div class="fourthContainer">
-                <div class="fourthContainer1">
+        <div id="thirdContainer" class="thirdContainer">
+            <div id="fourthContainer" class="fourthContainer">
+                <div id="fourthContainer1" class="fourthContainer1">
                     <div style="display: flex;margin-bottom: -10px;">
                         <h1 id="departureCity">A</h1>
                         <h1>&rarr;</h1>
@@ -123,17 +124,17 @@
                     <table>
                         <tbody>
                             <td>
-                                <h3 class="date" style="margin: 0px; margin-right: 20px;">Monday, Nov 18</h3>
+                                <h3 id="date" class="date" style="margin: 0px; margin-right: 20px;">Monday, Nov 18</h3>
                             </td>
                             <td>
-                                <div class="duration">2h 20min</div>
+                                <div id="duration" class="duration">2h 20min</div>
                             </td>
                         </tbody>
                     </table>
                     <table>
                         <tbody>
                             <td id="airlineIcon">
-                                <img src="..\..\resources\Individual images\Aeroplane.GIF" alt="Aeroplane">
+                                <img id="logo" src="..\..\resources\Individual images\Aeroplane.GIF" alt="Aeroplane" style="height: 50px; width: 50px;">
                             </td>
                             <td id="airline">
                                 *Airline*
@@ -144,62 +145,67 @@
                         </tbody>
                     </table>
                 </div>
-                <div class="fourthContaner2">
-                    <div class="flight-details" style="display: flex;">
-                        <div class="timings" style="margin-top: 4px; margin-right: 80px;">
+                <div id="fourthContainer2" class="fourthContainer2">
+                    <div id="flightDetails" class="flight-details" style="display: flex;">
+                        <div id="timings" class="timings" style="margin-top: 4px; margin-right: 80px;">
 
-                            <h4 class="time">16:00</h4>
+                            <h4 id="time1" class="time">16:00</h4>
                             <p style="height: 16px;"></p>
-                            <h4 class="time">18:20</h4>
+                            <h4 id="time2" class="time">18:20</h4>
                         </div>
 
-                        <div class="city_airports">
+                        <div id="cityAirports" class="city_airports">
                             <div style="display: flex; margin-bottom: -20px;">
                                 <table>
                                     <td>
-                                        <h4 class="location1">New Delhi</h4>
+                                        <h4 id="location1" class="location1">New Delhi</h4>
                                     </td>
                                     <td>
-                                        <p class="details1">Indira Gandhi International Airport, Terminal T1D</p>
+                                        <p id="details1" class="details1">Indira Gandhi International Airport, Terminal
+                                            T1D</p>
                                     </td>
                                 </table>
                             </div>
-                            <p class="duration">2h 20m</p>
+                            <p id="flightDuration" class="duration">2h 20m</p>
                             <div style="display: flex; margin-top: -20px;">
                                 <table>
                                     <td>
-                                        <h4 class="location2">Mumbai</h4>
+                                        <h4 id="location2" class="location2">Mumbai</h4>
                                     </td>
                                     <td>
-                                        <p class="details2">Chhatrapati Shivaji International Airport, Terminal T2</h4>
+                                        <p id="details2" class="details2">Chhatrapati Shivaji International Airport,
+                                            Terminal T2</h4>
                                     </td>
                                 </table>
                             </div>
                             <div style="display: flex;">
                             </div>
                         </div>
-                        <div class="divider"></div>
-                        <div class="divider"></div>
+                        <div id="divider1" class="divider"></div>
+                        <div id="divider2" class="divider"></div>
                     </div>
                 </div>
             </div>
-            <div class="fifthContainer">
+            <div id="fifthContainer" class="fifthContainer">
                 <h2 style="margin: 5px -3px;">Fare Summary</h2>
-                <button style="display: flex; width: 320px;background-color: transparent; border: 0px;margin-top: 5px;">
-                    <p class="content" style="margin: 0px; margin-right: 120px">Base Fare</p>
-                    <div class="amount">₹ 17,300</div>
+                <button id="baseFareButton"
+                    style="display: flex; width: 320px;background-color: transparent; border: 0px;margin-top: 5px;">
+                    <p id="baseFare" class="content" style="margin: 0px; margin-right: 120px">Base Fare</p>
+                    <div id="baseFareAmount" class="amount">₹ 17,300</div>
                 </button>
-                <button style="display: flex; width: 320px;background-color: transparent; border: 0px;margin-top: 5px;">
-                    <p class="content1" style="margin: 0px; margin-right: 50px;">Taxes and Surcharges </p>
-                    <p class="amount1" style="margin: 0px;"> ₹ 1,358</p>
+                <button id="taxesSurchargesButton"
+                    style="display: flex; width: 320px;background-color: transparent; border: 0px;margin-top: 5px;">
+                    <p id="taxesSurcharges" class="content1" style="margin: 0px; margin-right: 50px;">Taxes and
+                        Surcharges</p>
+                    <p id="taxesSurchargesAmount" class="amount1" style="margin: 0px;"> ₹ 0</p>
                 </button>
-                <button style="display: flex; width: 320px;background-color: transparent; border: 0px;margin-top: 5px;">
-                    <b class="content2" style="margin: 0px; margin-left: -10px; margin-right: 110px;">Total amount</b>
-                    <p class="amount2" style="margin: 0px;"> ₹ 18,658</p>
+                <button id="totalAmountButton"
+                    style="display: flex; width: 320px;background-color: transparent; border: 0px;margin-top: 5px;">
+                    <b id="totalAmount" class="content2"
+                        style="margin: 0px; margin-left: -10px; margin-right: 110px;">Total amount</b>
+                    <p id="totalAmountValue" class="amount2" style="margin: 0px;"> ₹ 18,658</p>
                 </button>
             </div>
-        </div>
-    </div>
-</body>
-
+            <script type="module" src="../backend/checkout.js"></script>
+    </body>
 </html>

@@ -15,6 +15,80 @@
 </head>
 
 <body>
+    <div id="firstContainer" class="firstContainer">
+        <!-- <button id="logoButton"
+            style="background-color: transparent;align-self: center;margin-inline: 50px; height: 60px; border: 0px;">
+            <img src="../../resources/Individual images/mmt2.png" width="100px" height="40px" alt="mmt">
+        </button> -->
+        <a href="main_page.html" style="background-color: transparent;align-self: center;margin-inline: 50px; height: 60px; border: 0px;">
+            <img src="../../resources/Individual images/mmt2.png" width="100px" height="40px" alt="mmt">
+        </a>
+        <table>
+            <tr>
+                <td>
+                    <button id="flightsButton" class="main_icons">
+                        <img src="../../resources/Individual images/flight.png" alt="flight" width="70" height="50">
+                        <p style="color:rgb(16, 98, 250); font-weight: bolder; margin-bottom: 3px;width: 70px;">
+                            Flights</p>
+                    </button>
+                </td>
+                <td>
+                    <button id="hotelsButton" class="icons">
+                        <img src="../../resources/Individual images/hotel.png" alt="Hotel" width="60.8" height="50">
+                        <p style="width: 60.8px;">Hotels</p>
+                    </button>
+                </td>
+                <td>
+                    <button id="homestayButton" class="icons">
+                        <img src="../../resources/Individual images/homestay.png" alt="Home & Stayl" height="50px">
+                        <p>Homestays & Villas</p>
+                    </button>
+                </td>
+                <td>
+                    <button id="holidayPackageButton" class="icons">
+                        <img src="../../resources/Individual images/holiday.png" alt="Holiday package"
+                            width="66.2px" height="50px">
+                        <p style="width: 66.2px;">Holiday Packages</p>
+                    </button>
+                </td>
+                <td>
+                    <button id="trainsButton" class="icons">
+                        <img src="../../resources/Individual images/trains.png" alt="Train" width="75.7px"
+                            height="50px">
+                        <p style="width: 75.7px;"> Trains</p>
+                    </button>
+                </td>
+                <td>
+                    <button id="busesButton" class="icons" style="padding-inline: 10px;">
+                        <img src="../../resources/Individual images/buses.png" alt="Buses" width="62.8px"
+                            height="50px">
+                        <p style="width: 62.8px;">Buses</p>
+                    </button>
+                </td>
+                <td>
+                    <button id="cabsButton" class="icons">
+                        <img src="../../resources/Individual images/cab.png" alt="Cabs" width="72.3px"
+                            height="50px">
+                        <p style="width: 72.3px;">Cabs</p>
+                    </button>
+                </td>
+                <td>
+                    <button id="forexButton" class="icons">
+                        <img src="../../resources/Individual images/forex.png" alt="Forex Card" width="67.8px"
+                            height="50px">
+                        <p style="width: 67.8px;">Forex Card & Currency</p>
+                    </button>
+                </td>
+                <td>
+                    <button id="travelInsuranceButton" class="icons">
+                        <img src="../../resources/Individual images/travel.png" alt="Travel" width="67.5px"
+                            height="50px">
+                        <p style="width: 67.5px;">Travel Insurance</p>
+                    </button>
+                </td>
+            </tr>
+        </table>
+    </div>
     <div id="card_1" style="background-color: whitesmoke; margin-bottom: 20px; border-radius: 5px; margin: 10px 15px;">
         <div style="display: flex;">
             <div style="margin-right: 100px;height: 120px; margin-top: 10px; margin-left: 10px;">
@@ -48,20 +122,20 @@
         <div id="flight_details1" class="hidden" style="margin: 10px; padding: 20px; margin-bottom: 30px;">
             <div style="border: 1px solid gray;">
                 <table>
-                    <th>
+                    <th class="departureFrom_1">
                         A
                     </th>
                     <th>
                         to
                     </th>
-                    <th>
+                    <th class="arrivingTo_1">
                         B
                     </th>
                     <th>
                         ,
                     </th>
                     <th>
-                        date
+                        10 Nov 2024
                     </th>
                 </table>
             </div>
@@ -83,15 +157,15 @@
                 <div style="display: flex; margin-inline: 30px;">
                     <div style="margin-right: 70px;width: 80px;">
                         <h2 id="departureTime_1" class="departureTime_1" style="margin-bottom: 0px;">ERROR</h2>
-                        <b id="departureOn_1" class="departureOn_1">*day date*</b>
+                        <b id="departureOn_1" class="departureOn_1">10 Nov 2024</b>
                         <div
                             style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-weight: lighter; color: rgb(78, 77, 77);">
                             <p style="width: 100px; margin: 10px 0px 0px;">Terminal T6</p>
-                            <div style="display: flex;">
+                            <!-- <div style="display: flex;">
                                 <p style="width: fit-content; margin: 1px 0px;" id="departureFrom_1"
                                     class="departureFrom_1">ERROR</p>
                                 <p style="width: 100px; margin: 1px 0px;">,India</p>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                     <div style="margin-right: 70px; justify-items: center;">
@@ -102,15 +176,15 @@
                     </div>
                     <div style="margin-right: 100px;">
                         <h2 id="arrivingTime_1" class="arrivingTime_1" style="margin-bottom: 0px;">ERROR</h2>
-                        <b id="arrivingOn_1" class="arrivingOn_1">*day date*</b>
+                        <b id="arrivingOn_1" class="arrivingOn_1">10 Nov 2024</b>
                         <div
                             style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-weight: lighter; color: rgb(78, 77, 77);">
                             <p style="width: 100px; margin: 10px 0px 0px;">Terminal T3</p>
-                            <div style="display: flex;">
+                            <!-- <div style="display: flex;">
                                 <p style="width: fit-content; margin: 1px 0px;" id="arrivingTo_1" class="arrivingTo_1">
                                     ERROR</p>
                                 <p style="width: 100px; margin: 1px 0px;">,India</p>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                     <div style="margin-right: 40px;">
@@ -171,20 +245,20 @@
         <div id="flight_details2" class="hidden" style="margin: 10px; padding: 20px; margin-bottom: 30px;">
             <div style="border: 1px solid gray;">
                 <table>
-                    <th>
+                    <th class="departureFrom_2">
                         A
                     </th>
                     <th>
                         to
                     </th>
-                    <th>
+                    <th class="arrivingTo_2">
                         B
                     </th>
                     <th>
                         ,
                     </th>
                     <th>
-                        date
+                        10 Nov 2024
                     </th>
                 </table>
             </div>
@@ -206,15 +280,15 @@
                 <div style="display: flex; margin-inline: 30px;">
                     <div style="margin-right: 70px;width: 80px;">
                         <h2 id="departureTime_2" class="departureTime_2" style="margin-bottom: 0px;">ERROR</h2>
-                        <b id="departureOn_2" class="departureOn_2">*day date*</b>
+                        <b id="departureOn_2" class="departureOn_2">10 Nov 2024</b>
                         <div
                             style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-weight: lighter; color: rgb(78, 77, 77);">
                             <p style="width: 100px; margin: 10px 0px 0px;">Terminal T6</p>
-                            <div style="display: flex;">
+                            <!-- <div style="display: flex;">
                                 <p style="width: fit-content; margin: 1px 0px;" id="departureFrom_2"
                                     class="departureFrom_2">ERROR</p>
                                 <p style="width: 100px; margin: 1px 0px;">,India</p>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                     <div style="margin-right: 70px; justify-items: center;">
@@ -225,15 +299,15 @@
                     </div>
                     <div style="margin-right: 100px;">
                         <h2 id="arrivingTime_2" class="arrivingTime_2" style="margin-bottom: 0px;">ERROR</h2>
-                        <b id="arrivingOn_2" class="arrivingOn_2">*day date*</b>
+                        <b id="arrivingOn_2" class="arrivingOn_2">10 Nov 2024</b>
                         <div
                             style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-weight: lighter; color: rgb(78, 77, 77);">
                             <p style="width: 100px; margin: 10px 0px 0px;">Terminal T3</p>
-                            <div style="display: flex;">
+                            <!-- <div style="display: flex;">
                                 <p style="width: fit-content; margin: 1px 0px;" id="arrivingTo_2" class="arrivingTo_2">
                                     ERROR</p>
                                 <p style="width: 100px; margin: 1px 0px;">,India</p>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                     <div style="margin-right: 40px;">
@@ -292,20 +366,20 @@
         <div id="flight_details3" class="hidden" style="margin: 10px; padding: 20px; margin-bottom: 30px;">
             <div style="border: 1px solid gray;">
                 <table>
-                    <th>
+                    <th class="departureFrom_3">
                         A
                     </th>
                     <th>
                         to
                     </th>
-                    <th>
+                    <th class="arrivingTo_3">
                         B
                     </th>
                     <th>
                         ,
                     </th>
                     <th>
-                        date
+                        10 Nov 2024
                     </th>
                 </table>
             </div>
@@ -327,15 +401,15 @@
                 <div style="display: flex; margin-inline: 30px;">
                     <div style="margin-right: 70px;width: 80px;">
                         <h2 id="departureTime_3" class="departureTime_3" style="margin-bottom: 0px;">ERROR</h2>
-                        <b id="departureOn_3" class="departureOn_3">*day date*</b>
+                        <b id="departureOn_3" class="departureOn_3">10 Nov 2024</b>
                         <div
                             style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-weight: lighter; color: rgb(78, 77, 77);">
                             <p style="width: 100px; margin: 10px 0px 0px;">Terminal T6</p>
-                            <div style="display: flex;">
+                            <!-- <div style="display: flex;">
                                 <p style="width: fit-content; margin: 1px 0px;" id="departureFrom_3"
                                     class="departureFrom_3">ERROR</p>
                                 <p style="width: 100px; margin: 1px 0px;">,India</p>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                     <div style="margin-right: 70px; justify-items: center;">
@@ -346,15 +420,15 @@
                     </div>
                     <div style="margin-right: 100px;">
                         <h2 id="arrivingTime_3" class="arrivingTime_3" style="margin-bottom: 0px;">ERROR</h2>
-                        <b id="arrivingOn_3" class="arrivingOn_3">*day date*</b>
+                        <b id="arrivingOn_3" class="arrivingOn_3">10 Nov 2024</b>
                         <div
                             style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-weight: lighter; color: rgb(78, 77, 77);">
                             <p style="width: 100px; margin: 10px 0px 0px;">Terminal T3</p>
-                            <div style="display: flex;">
+                            <!-- <div style="display: flex;">
                                 <p style="width: fit-content; margin: 1px 0px;" id="arrivingTo_3" class="arrivingTo_3">
                                     ERROR</p>
                                 <p style="width: 100px; margin: 1px 0px;">,India</p>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                     <div style="margin-right: 40px;">
