@@ -22,12 +22,14 @@ option1.addEventListener('change', async () => {
     localStorage.setItem("departure",option1.value);
     localStorage.setItem("arrival",option2.value);
     const data = await fetchData();
+    localStorage.setItem("selectedKey","None");
     FilterData(data,option1.value,option2.value);
 });
   
 option2.addEventListener('change', async () => {
-    const data = await fetchData();
     localStorage.setItem("departure",option1.value);
     localStorage.setItem("arrival",option2.value);
+    localStorage.setItem("selectedKey","None");
+    const data = await fetchData();
     FilterData(data,option1.value,option2.value);
 });
