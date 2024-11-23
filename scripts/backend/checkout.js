@@ -55,6 +55,5 @@ function FilterData(data) {
     else if (selectedData.arr_point === "Kolkata") {
         document.getElementById("details2").innerText = "Netaji Subhas Chandra Bose Airport";
     }
-    
 }
 FilterData(data)
