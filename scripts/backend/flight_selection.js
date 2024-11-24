@@ -26,8 +26,8 @@ function FilterData(data) {
         document.getElementById(`timeDuration_${i + 1}`).innerText = flight.flight_time;
         document.getElementById(`arrivingTime_${i + 1}`).innerText = flight.arr_time;
         document.getElementById(`arrivingTo_${i + 1}`).innerText = flight.arr_point;
-        document.getElementById(`flightPrice_${i + 1}`).innerText = `RS ${flight.fare}`;
-        document.getElementById(`logo_${i + 1}`).src = flight.logo;
+        document.getElementById(`flightPrice_${i + 1}`).innerText = `${flight.fare}`;
+        document.getElementById(`logo_${i + 1}`).xxxxxxxxxxsrc = flight.logo;
 
         document.getElementById(`flight_details${i + 1}`).querySelector(`.flightName_${i + 1}`).innerText = flight.name;
         document.getElementById(`flight_details${i + 1}`).querySelector(`.flightCode_${i + 1}`).innerText = flight.number;
